@@ -11,4 +11,8 @@ collections:
     folder: "src/experiment"
     create: true
     slug: "experiment"
+    fields: 
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime }
+      - { name: body, label: Body, widget: markdown }
         
