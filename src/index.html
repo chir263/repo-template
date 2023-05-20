@@ -1,7 +1,7 @@
 <html>
   <body>
     <main>
-      <button onclick="navigate()">Edit Experiment</button>
+      <button onclick="loadURL()">Edit Experiment</button>
     </main>
     <script>
       if (window.netlifyIdentity) {
@@ -13,10 +13,10 @@
           }
         });
       }
-
-      $(document).ready(function () {
-        $("body").attr("src", "/admin");
-      });
+      function loadURL() {
+        var url = "./admin"; // Replace with your desired URL
+        window.location.href = url;
+      }
     </script>
   </body>
 </html>
