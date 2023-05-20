@@ -14,7 +14,7 @@ collections:
     fields: 
       - { name: title, label: Title, widget: string, readOnly: true, default: "Experiment Name" }
       - { name: date, label: Date, widget: datetime }
-      - { name: body, label: Body, widget: string }
+      - { name: body, label: Body, widget: markdown }
         
 
   - name: "aim"
