@@ -6,64 +6,9 @@ media_folder: "public/experiment/images"
 public_folder: "/experiment/images"
 
 collections:
-  - name: "experiment-name"
-    label: "Experiment Name"
+  - name: "Experiment"
+    label: "Experiment"
     folder: "src/experiment"
     create: true
-    slug: "experiment-name"
-    fields: 
-      - { name: title, label: Title, widget: string, readOnly: true, default: "Experiment Name" }
-      - { name: date, label: Date, widget: datetime }
-      - { name: body, label: Body, widget: markdown }
+    slug: "experiment"
         
-
-  - name: "aim"
-    label: "Aim"
-    folder: "src/experiment"
-    create: true
-    slug: "aim"
-    fields: 
-      - { name: title, label: Title, widget: string, readOnly: true, default: "Aim" }
-      - { name: date, label: Date, widget: datetime }
-      - { name: body, label: Body, widget: markdown }
-        
-  - name: "theory"
-    label: "Theory"
-    folder: "src/experiment"
-    create: true
-    slug: "theory"
-    fields: 
-      - { name: title, label: Title, widget: string, readOnly: true, default: "Theory" }
-      - { name: date, label: Date, widget: datetime }
-      - { name: body, label: Body, widget: markdown }
-  
-  
-  - name: "procedure"
-    label: "Procedure"
-    folder: "src/experiment"
-    create: true
-    slug: "procedure"
-    fields: 
-      - { name: title, label: Title, widget: string, readOnly: true, default: "Procedure" }
-      - { name: date, label: Date, widget: datetime }
-      - { name: body, label: Body, widget: markdown }
-  
-  - name: "references"
-    label: "References"
-    folder: "src/experiment"
-    create: true
-    slug: "references"
-    fields: 
-      - { name: title, label: Title, widget: string, readOnly: true, default: "References" }
-      - { name: date, label: Date, widget: datetime }
-      - { name: body, label: Body, widget: markdown }
-  
-  - name: "contributors"
-    label: "Contributors"
-    folder: "src/experiment"
-    create: true
-    slug: "contributors"
-    fields: 
-      - { name: title, label: Title, widget: string, readOnly: true, default: "Contributors" }
-      - { name: date, label: Date, widget: datetime }
-      - { name: body, label: Body, widget: markdown }
