@@ -12,6 +12,12 @@ collections:
     create: true
     slug: "aim"
     fields: 
-      - { name: title, label: Title, widget: string, readOnly: true, default: "Aim" }
-      - { name: date, label: Date, widget: datetime }
+      - { name: body, label: Body, widget: markdown }
+  
+  - name: "contributors"
+    label: "Contributors"
+    folder: "src/experiment"
+    create: true
+    slug: "contributors"
+    fields: 
       - { name: body, label: Body, widget: markdown }
