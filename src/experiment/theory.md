@@ -6,4 +6,6 @@ orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem 
 
 
 
+<img src="./images/alarm-clock.png"/>
+
 ![dfsg](/experiment/images/alarm-clock.png)
